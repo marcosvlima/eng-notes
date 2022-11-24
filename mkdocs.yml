@@ -3,4 +3,5 @@ site_url: https://marcosvlima-norecords.com/
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+theme:
+  name: 'material'
