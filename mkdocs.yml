@@ -2,6 +2,46 @@ site_name: Eng Notes
 site_url: https://marcosvlima-norecords.com/
 nav:
   - Home: index.md
-  - About: about.md
+  - Documentation Guide:
+    - mkdocs: mkdocs.md
+    - Admonitions: admonitions.md
 theme:
   name: 'material'
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  palette: 
+    scheme: default
+    primary: indigo
+    accent: indigo
+  language: pt-BR
+  logo: assets/img/logo.jpeg
+  favicon: assets/img/favicon.ico
+  features:
+    - navigation.instant
+copyright: Copyright &copy; 2022 Marcos Vinicius de Moura Lima
+extra:
+  alternative:
+    - name: Engish
+      link: /en/
+      lang: en
+  homepage: https://marcosvlima-norecords.com/
+  social:
+    - icon: fontawesome/brands/github  
+      link: https://github.com/marcosvlima
+repo_url: https://github.com/marcosvlima/eng-notes
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
