@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: Eng Notes
+site_url: https://marcosvlima-norecords.com/
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
