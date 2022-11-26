@@ -1,7 +1,12 @@
-site_name: Eng Notes
+site_name: marcosvlima
 site_url: https://marcosvlima-norecords.com/
 nav:
   - Home: index.md
+  - Engineering Notes:
+    - Kubernetes:
+      - POD: kubernetes/pod.md
+    - Linux:
+      - Kernel: kernel.md
   - Documentation Guide:
     - mkdocs: mkdocs.md
     - Admonitions: admonitions.md
