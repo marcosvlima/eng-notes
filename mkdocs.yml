@@ -2,14 +2,15 @@ site_name: marcosvlima
 site_url: https://marcosvlima-norecords.com/
 nav:
   - Home: index.md
-  - Engineering Notes:
-    - Kubernetes:
-      - POD: kubernetes/pod.md
-    - Linux:
-      - Kernel: kernel.md
+  # - Engineering Notes:
+    # - Kubernetes:
+    #   - POD: kubernetes/pod.md
+    # - Linux:
+    #   - Kernel: kernel.md
   - Documentation Guide:
     - mkdocs: mkdocs.md
-    - Admonitions: admonitions.md
+    - Mkdocs Material:
+      - Admonitions: admonitions.md
 theme:
   name: 'material'
   icon:
@@ -26,10 +27,19 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
-  palette: 
-    scheme: default
-    primary: indigo
-    accent: indigo
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   language: pt-BR
   logo: assets/img/logo.jpeg
   favicon: assets/img/favicon.ico
